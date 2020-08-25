@@ -17,6 +17,10 @@ class SearchableMovieReviewsContainer extends Component {
      };
    }
    
+    handleSearch = event => this.setState({ searchTerm: event.target.value})
+    
+    
+   
    render() {
     return (
       <div className="searchable-movie-reviews">
