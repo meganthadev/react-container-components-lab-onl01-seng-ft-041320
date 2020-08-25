@@ -8,8 +8,7 @@ const Review = ({ byline, headline, summary_short }) => {
           <h4>By: {byline}</h4>
           <p>{summary_short}</p>
         </li>
-        
-      
+      </div>
       )
  }
   
