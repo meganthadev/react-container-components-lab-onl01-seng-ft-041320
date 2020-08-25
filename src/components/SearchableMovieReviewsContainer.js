@@ -17,7 +17,22 @@ class SearchableMovieReviewsContainer extends Component {
      };
    }
    
-   
+   render() {
+    return (
+      <div className="searchable-movie-reviews">
+        <form onSubmit={this.handleSubmit}>
+          <input
+            id='search-input'
+            type='text'
+            onChange={this.handleSearchInputChange}
+          />
+          <button type='submit'>Submit</button>
+        </form>
+        <MovieReviews reviews={this.state.reviews} />
+      </div>
+    )
+  }
+} 
    
 }
    
