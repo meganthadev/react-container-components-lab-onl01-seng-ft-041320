@@ -13,7 +13,8 @@ const Review = ({ byline, headline, summary_short }) => {
  }
  
  const MovieReviews = ({reviews}) => <div className="review-list">
-  
+        { reviews.map(Review)}
+  </div>
   
 
 
