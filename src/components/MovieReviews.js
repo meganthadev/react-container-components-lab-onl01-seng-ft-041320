@@ -11,6 +11,9 @@ const Review = ({ byline, headline, summary_short }) => {
       </div>
       )
  }
+ 
+ const MovieReviews = ({reviews}) => <div className="review-list">
+  
   
 
 
