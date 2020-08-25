@@ -14,4 +14,12 @@ class SearchableMovieReviewsContainer extends Component {
     this.state = {
       reviews: [],
       searchTerm: "",
-    }
+     };
+   }
+   
+   
+   
+}
+   
+   
+   
