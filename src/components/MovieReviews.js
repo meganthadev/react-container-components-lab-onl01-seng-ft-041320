@@ -16,7 +16,7 @@ const Review = ({ byline, headline, summary_short }) => {
  
  MovieReviews.defaultProps = {
     reviews: []
-}
+ }
   
   
 
