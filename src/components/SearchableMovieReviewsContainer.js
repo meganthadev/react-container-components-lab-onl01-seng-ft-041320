@@ -11,4 +11,7 @@ class SearchableMovieReviewsContainer extends Component {
    constructor() {
     super();
     
-    
+    state = {
+    reviews: [],
+    searchTerm: " ",
+}
